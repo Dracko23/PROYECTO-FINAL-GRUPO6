@@ -1,0 +1,28 @@
+﻿@model Evento_Cultural.Models.Ganador
+
+<h1>Registrar Ganador</h1>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="EventoId" class="form-label">Evento</label>
+        <select asp-for="EventoId" class="form-select" asp-items="@(new SelectList(ViewData["Eventos"] as List<Evento_Cultural.Models.Evento>, "Id", "Nombre"))">
+            <option value="">-- Seleccione --</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="ArtistaId" class="form-label">Artista</label>
+        <select asp-for="ArtistaId" class="form-select" asp-items="@(new SelectList(ViewData["Artistas"] as List<Evento_Cultural.Models.Artista>, "Id", "Nombre"))">
+            <option value="">-- Seleccione --</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Puesto" class="form-label"></label>
+        <input asp-for="Puesto" class="form-control" type="number" min="1" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Premio" class="form-label"></label>
+        <input asp-for="Premio" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

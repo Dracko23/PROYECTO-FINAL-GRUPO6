@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Evento_Cultural.Models.Ganador>
+@{
+    ViewData["Title"] = "Ganadores";
+}
+
+<div class="animate-fade-in">
+    <h1 class="text-2xl font-bold text-gray-900 mb-6">Cuadro de Honor</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        @foreach (var item in Model)
+        {
+            <div class="bg-gradient-to-r from-yellow-50 to-white p-5 rounded-xl border border-yellow-200 flex items-center gap-4 shadow-sm">
+                <div class="bg-yellow-400 text-white w-12 h-12 flex items-center justify-center rounded-full font-bold text-xl shadow-md">
+                    @item.Puesto.Substring(0, 1)
+                </div>
+                <div>
+                    <h3 class="font-bold text-gray-900 text-lg">@item.Artista?.Nombre</h3>
+                    <p class="text-sm text-gray-600">Evento: @item.Evento?.Titulo</p>
+                    <span class="text-xs font-semibold text-yellow-700 bg-yellow-100 px-2 py-0.5 rounded mt-1 inline-block">@item.Premio</span>
+                </div>
+            </div>
+        }
+    </div>
+</div>

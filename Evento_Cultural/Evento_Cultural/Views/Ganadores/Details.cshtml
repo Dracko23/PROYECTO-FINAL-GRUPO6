@@ -1,0 +1,45 @@
+﻿@model Evento_Cultural.Models.Ganador
+@{
+    ViewData["Title"] = "Detalle Ganador";
+}
+
+<div class="max-w-lg mx-auto animate-fade-in">
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+        <div class="bg-gradient-to-r from-yellow-400 to-orange-500 p-6 text-white text-center">
+            <i data-lucide="trophy" class="w-12 h-12 mx-auto mb-2 text-white/90"></i>
+            <h1 class="text-2xl font-bold">Detalle del Ganador</h1>
+            <p class="text-white/90 font-medium">Puesto: @Model.Puesto</p>
+        </div>
+
+        <div class="p-6 space-y-4">
+            <div class="flex items-center gap-4 p-3 bg-gray-50 rounded-lg">
+                <div class="bg-indigo-100 p-2 rounded-full text-indigo-600"><i data-lucide="mic-2" class="w-5 h-5"></i></div>
+                <div>
+                    <p class="text-xs text-gray-500 uppercase font-bold">Artista</p>
+                    <p class="text-gray-900 font-medium">@Model.Artista.Nombre</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-4 p-3 bg-gray-50 rounded-lg">
+                <div class="bg-purple-100 p-2 rounded-full text-purple-600"><i data-lucide="calendar" class="w-5 h-5"></i></div>
+                <div>
+                    <p class="text-xs text-gray-500 uppercase font-bold">Evento</p>
+                    <!-- CORREGIDO: Titulo -->
+                    <p class="text-gray-900 font-medium">@Model.Evento.Titulo</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-4 p-3 bg-gray-50 rounded-lg">
+                <div class="bg-yellow-100 p-2 rounded-full text-yellow-600"><i data-lucide="gift" class="w-5 h-5"></i></div>
+                <div>
+                    <p class="text-xs text-gray-500 uppercase font-bold">Premio</p>
+                    <p class="text-gray-900 font-medium">@Model.Premio</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-50 p-4 text-center border-t border-gray-200">
+            <a asp-action="Index" class="text-indigo-600 font-medium hover:text-indigo-800">Volver al listado</a>
+        </div>
+    </div>
+</div>

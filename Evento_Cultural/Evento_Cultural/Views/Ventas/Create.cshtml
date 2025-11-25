@@ -1,0 +1,157 @@
+﻿@model Evento_Cultural.Models.ViewModels.VentaViewModel
+@{
+    ViewData["Title"] = "Registrar Venta";
+}
+
+<div class="max-w-3xl mx-auto py-8">
+    <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+        <div class="flex items-center justify-between mb-6">
+            <h1 class="text-2xl font-bold text-gray-900">Punto de Venta</h1>
+            <a asp-action="Index" class="text-gray-400 hover:text-gray-600">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </a>
+        </div>
+
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="bg-red-50 border border-red-200 text-red-700 p-4 rounded-lg mb-6">
+                <strong>Errores:</strong>
+                <ul class="mt-2">
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <form asp-action="Create" method="post" class="space-y-6">
+            @Html.AntiForgeryToken()
+
+            <!-- Evento -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Evento *</label>
+                <select id="eventoSelect" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500">
+                    <option value="">-- Seleccione un evento --</option>
+                </select>
+                <input type="hidden" asp-for="EventoId" id="eventoIdHidden" />
+            </div>
+
+            <!-- Tipo de Entrada -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Tipo de Entrada *</label>
+                <select asp-for="EntradaId" id="entradaSelect" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500">
+                    <option value="">-- Primero seleccione un evento --</option>
+                </select>
+                <span asp-validation-for="EntradaId" class="text-red-500 text-xs"></span>
+            </div>
+
+            <!-- Precio Unitario -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Precio Unitario</label>
+                <input type="text" id="precioDisplay" class="w-full px-4 py-3 bg-gray-50 border border-gray-300 rounded-lg font-medium" readonly value="$0.00" />
+            </div>
+
+            <!-- Cliente -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Cliente</label>
+                <input asp-for="ClienteNombre" class="w-full px-4 py-3 border border-gray-300 rounded-lg" placeholder="Consumidor Final" />
+            </div>
+
+            <!-- Cantidad -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Cantidad *</label>
+                <input asp-for="Cantidad" type="number" min="1" id="cantidadInput" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500" />
+                <span asp-validation-for="Cantidad" class="text-red-500 text-xs"></span>
+            </div>
+
+            <!-- TOTAL -->
+            <div class="bg-gradient-to-r from-green-50 to-emerald-50 p-6 rounded-xl border-2 border-green-300 shadow-lg">
+                <div class="flex justify-between items-center">
+                    <span class="text-2xl font-bold text-gray-800">TOTAL A PAGAR</span>
+                    <span class="text-5xl font-bold text-green-600">$<span id="totalDisplay">0.00</span></span>
+                </div>
+            </div>
+
+            <div class="flex justify-end gap-4 pt-6">
+                <a asp-action="Index" class="px-8 py-4 bg-gray-200 hover:bg-gray-300 rounded-lg font-medium transition">Cancelar</a>
+                <button type="submit" class="px-10 py-4 bg-green-600 hover:bg-green-700 text-white rounded-lg font-bold text-xl shadow-xl transition transform hover:scale-105">
+                    Confirmar Venta
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        const eventoSelect = document.getElementById('eventoSelect');
+        const entradaSelect = document.getElementById('entradaSelect');
+        const precioDisplay = document.getElementById('precioDisplay');
+        const totalDisplay = document.getElementById('totalDisplay');
+        const cantidadInput = document.getElementById('cantidadInput');
+        const eventoIdHidden = document.getElementById('eventoIdHidden');
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const eventos = @Html.Raw(Json.Serialize(Model.Eventos.Select(e => new { id = e.Id, titulo = e.Titulo })));
+            eventos.forEach(ev => {
+                const opt = new Option(ev.titulo, ev.id);
+                eventoSelect.add(opt);
+            });
+
+            @if (Model.EventoId > 0)
+            {
+                    <text>
+                    eventoSelect.value = @Model.EventoId;
+                    eventoIdHidden.value = @Model.EventoId;
+                    cargarEntradas(@Model.EventoId);
+                    </text>
+            }
+        });
+
+        eventoSelect.addEventListener('change', function () {
+            const id = this.value;
+            eventoIdHidden.value = id;
+            if (!id) {
+                entradaSelect.innerHTML = '<option value="">-- Primero seleccione un evento --</option>';
+                limpiar();
+                return;
+            }
+            cargarEntradas(id);
+        });
+
+        function cargarEntradas(eventoId) {
+            fetch(`/Ventas/GetEntradas?eventoId=${eventoId}`)
+                .then(r => r.json())
+                .then(data => {
+                    entradaSelect.innerHTML = '<option value="">-- Seleccione tipo de entrada --</option>';
+                    data.forEach(e => {
+                        const opt = new Option(`${e.tipo} - $${parseFloat(e.precio).toFixed(2)}`, e.id);
+                        opt.dataset.precio = e.precio;
+                        entradaSelect.add(opt);
+                    });
+                });
+        }
+
+        entradaSelect.addEventListener('change', () => {
+            const precio = entradaSelect.selectedOptions[0]?.dataset.precio || 0;
+            precioDisplay.value = '$' + parseFloat(precio).toFixed(2);
+            calcularTotal();
+        });
+
+        cantidadInput.addEventListener('input', calcularTotal);
+
+        function calcularTotal() {
+            const precio = parseFloat(entradaSelect.selectedOptions[0]?.dataset.precio || 0);
+            const cant = parseInt(cantidadInput.value) || 0;
+            totalDisplay.textContent = (precio * cant).toFixed(2);
+        }
+
+        function limpiar() {
+            entradaSelect.innerHTML = '<option value="">-- Primero seleccione un evento --</option>';
+            precioDisplay.value = '$0.00';
+            totalDisplay.textContent = '0.00';
+        }
+    </script>
+}

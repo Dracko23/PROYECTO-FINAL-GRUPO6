@@ -1,0 +1,164 @@
+﻿@{
+    ViewData["Title"] = "Evento Cultural";
+}
+
+<!-- Cargar Chart.js para los gráficos -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="animate-fade-in space-y-8">
+    <!-- Header -->
+    <div>
+        <h1 class="text-2xl font-bold text-gray-900">Evento Cultural</h1>
+        <p class="mt-1 text-sm text-gray-500">Resumen de actividad, ventas y participación artística.</p>
+    </div>
+
+    <!-- KPI Stats Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Ingresos -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all">
+            <div class="flex items-center justify-between">
+                <div>
+                    <p class="text-sm font-medium text-gray-500">Ingresos Totales</p>
+                    <h3 class="text-2xl font-bold text-gray-900 mt-1">$@ViewBag.TotalIngresos.ToString("N2")</h3>
+                    <p class="text-xs text-green-600 mt-1 font-medium">+12.5% este mes</p>
+                </div>
+                <div class="p-3 rounded-full bg-green-50 text-green-600">
+                    <i data-lucide="dollar-sign" class="w-6 h-6"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ventas -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all">
+            <div class="flex items-center justify-between">
+                <div>
+                    <p class="text-sm font-medium text-gray-500">Entradas Vendidas</p>
+                    <h3 class="text-2xl font-bold text-gray-900 mt-1">@ViewBag.TotalVentas</h3>
+                    <p class="text-xs text-blue-600 mt-1 font-medium">+5.2% vs objetivo</p>
+                </div>
+                <div class="p-3 rounded-full bg-blue-50 text-blue-600">
+                    <i data-lucide="ticket" class="w-6 h-6"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Eventos -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all">
+            <div class="flex items-center justify-between">
+                <div>
+                    <p class="text-sm font-medium text-gray-500">Eventos Activos</p>
+                    <h3 class="text-2xl font-bold text-gray-900 mt-1">@ViewBag.TotalEventos</h3>
+                </div>
+                <div class="p-3 rounded-full bg-purple-50 text-purple-600">
+                    <i data-lucide="calendar" class="w-6 h-6"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Artistas -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all">
+            <div class="flex items-center justify-between">
+                <div>
+                    <p class="text-sm font-medium text-gray-500">Artistas Totales</p>
+                    <h3 class="text-2xl font-bold text-gray-900 mt-1">@ViewBag.TotalArtistas</h3>
+                    <p class="text-xs text-indigo-600 mt-1 font-medium">+3 nuevos</p>
+                </div>
+                <div class="p-3 rounded-full bg-indigo-50 text-indigo-600">
+                    <i data-lucide="users" class="w-6 h-6"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Charts Section -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- Sales Chart -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-lg font-bold text-gray-900">Ventas por Evento</h2>
+            </div>
+            <div class="h-[300px] w-full">
+                <canvas id="salesChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Artist Participation Chart -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-lg font-bold text-gray-900">Participación por Artista</h2>
+            </div>
+            <div class="h-[300px] w-full flex justify-center">
+                <canvas id="artistsChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner Ganadores -->
+    <div class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl shadow-lg p-8 text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mt-4 -mr-4 opacity-10">
+            <i data-lucide="trophy" class="w-48 h-48 text-white"></i>
+        </div>
+        <div class="relative z-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div>
+                <h2 class="text-2xl font-bold mb-2">Ganadores del Concurso Cultural</h2>
+                <p class="text-indigo-100 max-w-xl">
+                    Se han registrado un total de <span class="font-bold text-white">@ViewBag.TotalGanadores ganadores</span> en las últimas convocatorias.
+                </p>
+            </div>
+            <a href="@Url.Action("Index", "Ganadores")" class="bg-white text-indigo-600 hover:bg-indigo-50 font-semibold py-3 px-6 rounded-lg transition-colors shadow-md whitespace-nowrap">
+                Ver Ganadores
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Datos desde el Backend
+        const ventasRaw = @Html.Raw(ViewBag.VentasJson);
+        const participacionRaw = @Html.Raw(ViewBag.ParticipacionJson);
+
+        // 1. Gráfico de Ventas (Barras)
+        new Chart(document.getElementById('salesChart'), {
+            type: 'bar',
+            data: {
+                labels: ventasRaw.map(x => x.name),
+                datasets: [{
+                    label: 'Entradas',
+                    data: ventasRaw.map(x => x.value),
+                    backgroundColor: '#4f46e5',
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, grid: { display: false } },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // 2. Gráfico de Artistas (Doughnut)
+        new Chart(document.getElementById('artistsChart'), {
+            type: 'doughnut',
+            data: {
+                labels: participacionRaw.map(x => x.name),
+                datasets: [{
+                    data: participacionRaw.map(x => x.value),
+                    backgroundColor: ['#6366f1', '#8b5cf6', '#ec4899', '#f43f5e', '#10b981'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom' }
+                }
+            }
+        });
+    });
+</script>

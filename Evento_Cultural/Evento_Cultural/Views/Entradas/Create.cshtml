@@ -1,0 +1,51 @@
+﻿@model Evento_Cultural.Models.Entrada
+@{
+    ViewData["Title"] = "Agregar Entrada";
+}
+<div class="max-w-3xl mx-auto py-8">
+    <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+        <div class="flex items-center justify-between mb-6">
+            <h1 class="text-2xl font-bold text-gray-900">Agregar Entrada</h1>
+            <a asp-action="Index" class="text-gray-400 hover:text-gray-600">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </a>
+        </div>
+        <form asp-action="Create" method="post" class="space-y-5">
+            @Html.AntiForgeryToken()
+            <div>
+                <label asp-for="EventoId" class="block text-sm font-medium text-gray-700">Evento</label>
+                <select asp-for="EventoId" asp-items="ViewBag.EventoId" class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg bg-white">
+                    <option value="">-- Seleccione un evento --</option>
+                </select>
+                <span asp-validation-for="EventoId" class="text-red-500 text-xs"></span>
+            </div>
+            <div>
+                <label asp-for="TipoEntrada" class="block text-sm font-medium text-gray-700">Tipo de Entrada</label>
+                <input asp-for="TipoEntrada" class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg" placeholder="Ej. VIP, General, Palco" />
+                <span asp-validation-for="TipoEntrada" class="text-red-500 text-xs"></span>
+            </div>
+            <div>
+                <label asp-for="Precio" class="block text-sm font-medium text-gray-700">Precio</label>
+                <input asp-for="Precio" type="number" step="0.01" class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg" />
+                <span asp-validation-for="Precio" class="text-red-500 text-xs"></span>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <label asp-for="Stock" class="block text-sm font-medium text-gray-700">Stock Inicial</label>
+                    <input asp-for="Stock" type="number" class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg" />
+                </div>
+                <div>
+                    <label asp-for="StockMinimo" class="block text-sm font-medium text-gray-700">Stock Mínimo</label>
+                    <input asp-for="StockMinimo" type="number" class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg" />
+                </div>
+            </div>
+            <div class="flex justify-end gap-3 pt-3">
+                <a asp-action="Index" class="px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200 text-sm">Cancelar</a>
+                <button type="submit" class="px-4 py-2 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 text-sm">Guardar</button>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

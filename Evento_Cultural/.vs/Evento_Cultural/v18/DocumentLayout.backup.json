@@ -1,0 +1,1179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\eventos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\eventos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ventas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ventas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\models\\participacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\models\\participacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\participaciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\participaciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\models\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\models\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\entradas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\entradas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\entradas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\entradas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\services\\reporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\services\\reporteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\dtos\\reporteeventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\dtos\\reporteeventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\dtos\\ventaseventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\dtos\\ventaseventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\dtos\\estadisticaartistadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\dtos\\estadisticaartistadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\controllers\\participacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\controllers\\participacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\controllers\\ganadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\controllers\\ganadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\controllers\\entradascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\controllers\\entradascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ventas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ventas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\entradas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\entradas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\models\\asistenciaevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\models\\asistenciaevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\models\\artista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\models\\artista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\eventos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ganadores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ganadores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\entradas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\entradas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\eventos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\artistas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\artistas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\services\\ventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\services\\ventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\services\\artistaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\services\\artistaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\controllers\\artistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\controllers\\artistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\models\\rendimientoartista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\models\\rendimientoartista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\models\\ganador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\models\\ganador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\artistas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\artistas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ventas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ventas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ganadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ganadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\participaciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\participaciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\shared\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\shared\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\shared\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\shared\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ventas\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ventas\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\artistas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\artistas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\participaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\participaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\artistas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\artistas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\artistas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\artistas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ganadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ganadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\entradas\\edit.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\entradas\\edit.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ganadores\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ganadores\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\participaciones\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\participaciones\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ganadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ganadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\ganadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\ganadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\eventos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\participaciones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\participaciones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\views\\participaciones\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\views\\participaciones\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|c:\\users\\dracko\\desktop\\evento_cultural\\evento_cultural\\evento_cultural\\evento_cultural.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EAC9DE55-D449-48E1-B27A-0FE90D618697}|Evento_Cultural\\Evento_Cultural.csproj|solutionrelative:evento_cultural\\evento_cultural.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VentasController.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\VentasController.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Controllers\\VentasController.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\VentasController.cs",
+              "RelativeToolTip": "Evento_Cultural\\Controllers\\VentasController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:15:19.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Eventos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Eventos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Eventos\\Create.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Eventos\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:36:15.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Eventos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Eventos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Eventos\\Index.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Eventos\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:35:55.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Evento.cs",
+              "RelativeToolTip": "Evento_Cultural\\Models\\Evento.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:19:53.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Services\\DashboardService.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Services\\DashboardService.cs",
+              "RelativeToolTip": "Evento_Cultural\\Services\\DashboardService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wBQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:18:16.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Evento_Cultural\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T19:14:32.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Venta.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Venta.cs",
+              "RelativeToolTip": "Evento_Cultural\\Models\\Venta.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:55:04.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ventas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Details.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ventas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:58:11.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ventas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Create.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ventas\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:57:36.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ventas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Index.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ventas\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:57:54.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Participacion.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Participacion.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Models\\Participacion.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Participacion.cs",
+              "RelativeToolTip": "Evento_Cultural\\Models\\Participacion.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:40:28.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Entrada.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Entrada.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Models\\Entrada.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Entrada.cs",
+              "RelativeToolTip": "Evento_Cultural\\Models\\Entrada.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:45:41.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Entradas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Entradas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Entradas\\Details.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Entradas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:48:33.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Entradas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Entradas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Entradas\\Create.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Entradas\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:46:43.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReporteService.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Services\\ReporteService.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Services\\ReporteService.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Services\\ReporteService.cs",
+              "RelativeToolTip": "Evento_Cultural\\Services\\ReporteService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:18:00.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Create.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Participaciones\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Create.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Participaciones\\Create.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:38:10.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReporteEventoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\DTOs\\ReporteEventoDTO.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\DTOs\\ReporteEventoDTO.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\DTOs\\ReporteEventoDTO.cs",
+              "RelativeToolTip": "Evento_Cultural\\DTOs\\ReporteEventoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:21:21.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VentasEventoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\DTOs\\VentasEventoDTO.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\DTOs\\VentasEventoDTO.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\DTOs\\VentasEventoDTO.cs",
+              "RelativeToolTip": "Evento_Cultural\\DTOs\\VentasEventoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:25:48.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EstadisticaArtistaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\DTOs\\EstadisticaArtistaDTO.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\DTOs\\EstadisticaArtistaDTO.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\DTOs\\EstadisticaArtistaDTO.cs",
+              "RelativeToolTip": "Evento_Cultural\\DTOs\\EstadisticaArtistaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:25:29.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ParticipacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\ParticipacionesController.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Controllers\\ParticipacionesController.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\ParticipacionesController.cs",
+              "RelativeToolTip": "Evento_Cultural\\Controllers\\ParticipacionesController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAQwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:14:12.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Evento_Cultural\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:15:20.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GanadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\GanadoresController.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Controllers\\GanadoresController.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\GanadoresController.cs",
+              "RelativeToolTip": "Evento_Cultural\\Controllers\\GanadoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:15:23.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EventosController.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\EventosController.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Controllers\\EventosController.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\EventosController.cs",
+              "RelativeToolTip": "Evento_Cultural\\Controllers\\EventosController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAQwEMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:15:24.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EntradasController.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\EntradasController.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Controllers\\EntradasController.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\EntradasController.cs",
+              "RelativeToolTip": "Evento_Cultural\\Controllers\\EntradasController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAApwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:15:25.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EventoService.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Services\\EventoService.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Services\\EventoService.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Services\\EventoService.cs",
+              "RelativeToolTip": "Evento_Cultural\\Services\\EventoService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:17:08.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ventas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Delete.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ventas\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:58:26.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Entradas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Entradas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Entradas\\Index.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Entradas\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAvwBwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:47:00.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Evento_Cultural\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T20:09:16.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AsistenciaEvento.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\AsistenciaEvento.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Models\\AsistenciaEvento.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\AsistenciaEvento.cs",
+              "RelativeToolTip": "Evento_Cultural\\Models\\AsistenciaEvento.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T20:09:05.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Artista.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Artista.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Models\\Artista.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Artista.cs",
+              "RelativeToolTip": "Evento_Cultural\\Models\\Artista.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:22:35.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Eventos\\Details.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Eventos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Eventos\\Details.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Eventos\\Details.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAswGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:54:20.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Details.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ganadores\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Details.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ganadores\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:01:21.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Evento_Cultural\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:15:26.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Entradas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Entradas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Entradas\\Edit.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Entradas\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:29:34.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswEAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:04:42.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Eventos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Eventos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Eventos\\Edit.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Eventos\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:54:02.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Artistas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Artistas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Artistas\\Edit.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Artistas\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:53:40.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "VentaService.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Services\\VentaService.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Services\\VentaService.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Services\\VentaService.cs",
+              "RelativeToolTip": "Evento_Cultural\\Services\\VentaService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:17:43.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ArtistaService.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Services\\ArtistaService.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Services\\ArtistaService.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Services\\ArtistaService.cs",
+              "RelativeToolTip": "Evento_Cultural\\Services\\ArtistaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:16:54.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ArtistasController.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\ArtistasController.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Controllers\\ArtistasController.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Controllers\\ArtistasController.cs",
+              "RelativeToolTip": "Evento_Cultural\\Controllers\\ArtistasController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:15:27.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Reporte.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Reporte.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Models\\Reporte.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Reporte.cs",
+              "RelativeToolTip": "Evento_Cultural\\Models\\Reporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T20:08:46.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RendimientoArtista.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\RendimientoArtista.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Models\\RendimientoArtista.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\RendimientoArtista.cs",
+              "RelativeToolTip": "Evento_Cultural\\Models\\RendimientoArtista.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T20:08:33.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Ganador.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Ganador.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Models\\Ganador.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Models\\Ganador.cs",
+              "RelativeToolTip": "Evento_Cultural\\Models\\Ganador.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:58:46.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Artistas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Artistas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Artistas\\Create.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Artistas\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:27:59.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswEcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:56:09.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Program.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Program.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Program.cs",
+              "RelativeToolTip": "Evento_Cultural\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwCcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T19:05:01.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ventas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Edit.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ventas\\Edit.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T20:13:59.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:56:10.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\appsettings.json",
+              "RelativeDocumentMoniker": "Evento_Cultural\\appsettings.json",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\appsettings.json",
+              "RelativeToolTip": "Evento_Cultural\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-21T19:14:45.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Participaciones\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Edit.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Participaciones\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:38:31.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ganadores\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Edit.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ganadores\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:39:34.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Shared\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Shared\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Shared\\_ViewStart.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Shared\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T20:02:21.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Shared\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Shared\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Shared\\_ViewImports.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Shared\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T20:01:43.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ventas\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ventas\\Create.cshtml.cs",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ventas\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T20:19:11.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Artistas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Artistas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Artistas\\Delete.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Artistas\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:28:51.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:56:13.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Participaciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Index.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Participaciones\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:37:45.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Artistas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Artistas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Artistas\\Index.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Artistas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:26:56.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Artistas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Artistas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Artistas\\Details.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Artistas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:34:43.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:35:28.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:35:20.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Index.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ganadores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Index.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ganadores\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:00:56.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Entradas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Entradas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Entradas\\Edit.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Entradas\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:48:01.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ganadores\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Index.cshtml.cs",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ganadores\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T19:21:54.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Participaciones\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Index.cshtml.cs",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Participaciones\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T19:21:41.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ganadores\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Delete.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ganadores\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:01:34.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Create.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Ganadores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Ganadores\\Create.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Ganadores\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:00:39.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Eventos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Eventos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Eventos\\Delete.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Eventos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:54:34.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Details.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Participaciones\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Details.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Participaciones\\Details.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:38:50.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Views\\Participaciones\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Views\\Participaciones\\Delete.cshtml",
+              "RelativeToolTip": "Evento_Cultural\\Views\\Participaciones\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:39:06.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Evento_Cultural.csproj",
+              "DocumentMoniker": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural.csproj",
+              "RelativeDocumentMoniker": "Evento_Cultural\\Evento_Cultural.csproj",
+              "ToolTip": "C:\\Users\\dracko\\Desktop\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural\\Evento_Cultural.csproj",
+              "RelativeToolTip": "Evento_Cultural\\Evento_Cultural.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-21T18:16:39.629Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

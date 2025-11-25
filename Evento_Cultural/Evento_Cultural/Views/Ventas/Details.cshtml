@@ -1,0 +1,52 @@
+﻿@model Evento_Cultural.Models.Venta
+
+@{
+    ViewData["Title"] = "Detalle de Venta";
+}
+
+<div class="max-w-lg mx-auto animate-fade-in">
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 relative">
+        <!-- Decoración tipo ticket -->
+        <div class="h-2 bg-gradient-to-r from-green-400 to-blue-500"></div>
+
+        <div class="p-8">
+            <div class="flex justify-between items-start mb-6">
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-900">Recibo de Venta</h2>
+                    <p class="text-sm text-gray-500">ID Transacción: #@Model.Id</p>
+                </div>
+                <div class="bg-green-100 p-2 rounded-lg text-green-700">
+                    <i data-lucide="check-circle" class="w-6 h-6"></i>
+                </div>
+            </div>
+
+            <div class="space-y-4 border-t border-b border-gray-100 py-6 my-2">
+                <div class="flex justify-between">
+                    <span class="text-gray-500">Cliente</span>
+                    <span class="font-medium text-gray-900">@Model.ClienteNombre</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-gray-500">Evento</span>
+                    <span class="font-medium text-gray-900 text-right">@Model.Evento?.Titulo</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-gray-500">Fecha</span>
+                    <span class="font-medium text-gray-900">@Model.FechaVenta.ToShortDateString()</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-gray-500">Cantidad</span>
+                    <span class="font-medium text-gray-900">@Model.Cantidad entradas</span>
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center pt-2">
+                <span class="text-lg font-bold text-gray-700">TOTAL PAGADO</span>
+                <span class="text-2xl font-bold text-green-600">$@Model.Total.ToString("N2")</span>
+            </div>
+        </div>
+
+        <div class="bg-gray-50 px-8 py-4 text-center border-t border-gray-200">
+            <a asp-action="Index" class="text-indigo-600 font-medium hover:text-indigo-800 transition-colors">Volver al historial</a>
+        </div>
+    </div>
+</div>

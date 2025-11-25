@@ -1,0 +1,62 @@
+﻿@model Evento_Cultural.Models.Participacion
+
+@{
+    ViewData["Title"] = "Agregar Participación";
+}
+
+<div class="max-w-3xl mx-auto py-8">
+    <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+        <div class="flex items-center justify-between mb-6">
+            <h1 class="text-2xl font-bold text-gray-900">Agregar Participación</h1>
+            <a asp-action="Index" class="text-gray-400 hover:text-gray-600">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </a>
+        </div>
+
+        <form asp-action="Create" method="post" class="space-y-5">
+            @Html.AntiForgeryToken()
+
+            <div>
+                <label asp-for="ArtistaId" class="block text-sm font-medium text-gray-700">Artista</label>
+                <select asp-for="ArtistaId" asp-items="ViewBag.ArtistaId"
+                        class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg bg-white">
+                    <option value="">-- Seleccione un artista --</option>
+                </select>
+                <span asp-validation-for="ArtistaId" class="text-red-500 text-xs"></span>
+            </div>
+
+            <div>
+                <label asp-for="EventoId" class="block text-sm font-medium text-gray-700">Evento</label>
+                <select asp-for="EventoId" asp-items="ViewBag.EventoId"
+                        class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg bg-white">
+                    <option value="">-- Seleccione un evento --</option>
+                </select>
+                <span asp-validation-for="EventoId" class="text-red-500 text-xs"></span>
+            </div>
+
+            <div>
+                <label asp-for="HoraPresentacion" class="block text-sm font-medium text-gray-700">Hora de Presentación</label>
+                <input asp-for="HoraPresentacion" type="datetime-local"
+                       class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg" />
+                <span asp-validation-for="HoraPresentacion" class="text-red-500 text-xs"></span>
+            </div>
+
+            <div>
+                <label asp-for="Observaciones" class="block text-sm font-medium text-gray-700">Observaciones</label>
+                <textarea asp-for="Observaciones" rows="3"
+                          class="mt-1 w-full px-3 py-2 border border-gray-300 rounded-lg"></textarea>
+            </div>
+
+            <div class="flex justify-end gap-3 pt-3">
+                <a asp-action="Index" class="px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200 text-sm">Cancelar</a>
+                <button type="submit" class="px-4 py-2 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 text-sm">
+                    Guardar
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

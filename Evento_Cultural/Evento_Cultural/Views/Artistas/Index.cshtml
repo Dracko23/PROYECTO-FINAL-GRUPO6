@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Evento_Cultural.Models.Artista>
+
+@{
+    ViewData["Title"] = "Gestión de Artistas";
+}
+
+<div class="animate-fade-in">
+    <div class="flex justify-between items-center mb-8">
+        <div>
+            <h1 class="text-2xl font-bold text-gray-900">Artistas</h1>
+            <p class="text-sm text-gray-500 mt-1">Catálogo de talentos y grupos.</p>
+        </div>
+        <a asp-action="Create" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 shadow-sm transition-colors">
+            <i data-lucide="plus" class="w-4 h-4"></i> Nuevo Artista
+        </a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="text-center py-12 bg-white rounded-xl border border-gray-200">
+            <i data-lucide="user-minus" class="w-12 h-12 text-gray-300 mx-auto mb-3"></i>
+            <p class="text-gray-500">No hay artistas registrados.</p>
+        </div>
+    }
+    else
+    {
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            @foreach (var artista in Model)
+            {
+                <div class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow overflow-hidden group">
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-gray-900 truncate">@artista.Nombre</h3>
+                        <p class="text-sm text-gray-500">@artista.Tipo</p>
+                        <p class="text-sm text-gray-500">@artista.Genero</p>
+                        <p class="text-sm text-gray-500">@artista.PaisOrigen</p>
+                        <span class="mt-2 inline-block px-2 py-1 text-xs font-semibold rounded-full @(artista.Activo ? "bg-green-100 text-green-800" : "bg-red-100 text-red-800")">
+                            @(artista.Activo ? "Activo" : "Inactivo")
+                        </span>
+
+                        <div class="mt-4 flex gap-2">
+                            <a asp-action="Edit" asp-route-id="@artista.Id" class="flex-1 bg-gray-50 text-gray-700 py-2 rounded-md text-sm font-medium hover:bg-gray-100 text-center">
+                                Editar
+                            </a>
+                            <a asp-action="Details" asp-route-id="@artista.Id" class="flex-1 bg-indigo-50 text-indigo-700 py-2 rounded-md text-sm font-medium hover:bg-indigo-100 text-center">
+                                Detalles
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@artista.Id" class="flex-1 bg-red-50 text-red-700 py-2 rounded-md text-sm font-medium hover:bg-red-100 text-center">
+                                Eliminar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

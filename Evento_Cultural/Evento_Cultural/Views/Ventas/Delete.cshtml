@@ -1,0 +1,29 @@
+﻿@model Evento_Cultural.Models.Venta
+
+@{
+    ViewData["Title"] = "Eliminar Venta";
+}
+
+<div class="flex justify-center items-center h-[50vh] animate-fade-in">
+    <div class="bg-white rounded-xl shadow-lg border border-red-100 p-8 max-w-md w-full text-center">
+        <div class="mx-auto w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-4">
+            <i data-lucide="shopping-cart" class="w-8 h-8 text-red-600"></i>
+        </div>
+
+        <h2 class="text-xl font-bold text-gray-900 mb-2">¿Anular Venta?</h2>
+        <p class="text-gray-500 mb-6">
+            Vas a eliminar la venta de <strong>@Model.ClienteNombre</strong> para el evento
+            <strong>"@Model.Evento.Titulo"</strong>.
+            <br />
+            <span class="text-sm text-red-500 mt-2 block">Esta acción afectará los ingresos totales.</span>
+        </p>
+
+        <form asp-action="DeleteConfirmed" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div class="flex gap-3 justify-center">
+                <a asp-action="Index" class="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 font-medium transition-colors">Cancelar</a>
+                <button type="submit" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 font-medium shadow-sm transition-colors">Sí, Anular</button>
+            </div>
+        </form>
+    </div>
+</div>

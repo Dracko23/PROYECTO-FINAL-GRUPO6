@@ -1,0 +1,22 @@
+﻿@model Evento_Cultural.Models.Artista
+@{
+    ViewData["Title"] = "Detalles del Artista";
+}
+
+<div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow">
+    <h1 class="text-2xl font-bold text-gray-900 mb-4">Detalles del Artista</h1>
+
+    <div class="space-y-3">
+        <p><strong>Nombre:</strong> @Model.Nombre</p>
+        <p><strong>Tipo:</strong> @Model.Tipo</p>
+        <p><strong>Género:</strong> @Model.Genero</p>
+        <p><strong>País:</strong> @Model.PaisOrigen</p>
+        <p><strong>Descripción:</strong> @Model.Descripcion</p>
+        <p><strong>Estado:</strong> @(Model.Activo ? "Activo" : "Inactivo")</p>
+    </div>
+
+    <div class="mt-6 flex gap-3">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="px-4 py-2 rounded-lg bg-indigo-600 text-white">Editar</a>
+        <a asp-action="Index" class="px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200">Volver</a>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+﻿@model Evento_Cultural.Models.Ganador
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Editar Ganador";
+}
+
+<h1>Editar Ganador</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="EventoId" class="form-label"></label>
+        <select asp-for="EventoId" class="form-select"
+                asp-items="@(new SelectList(ViewBag.Eventos, "Id", "Nombre"))"></select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ArtistaId" class="form-label"></label>
+        <select asp-for="ArtistaId" class="form-select"
+                asp-items="@(new SelectList(ViewBag.Artistas, "Id", "Nombre"))"></select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Puesto" class="form-label"></label>
+        <input asp-for="Puesto" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Premio" class="form-label"></label>
+        <input asp-for="Premio" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar cambios</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

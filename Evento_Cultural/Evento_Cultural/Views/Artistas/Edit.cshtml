@@ -1,0 +1,49 @@
+﻿@model Evento_Cultural.Models.Artista
+@{
+    ViewData["Title"] = "Editar Artista";
+}
+
+<div class="max-w-3xl mx-auto">
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Editar Artista</h1>
+
+    <form asp-action="Edit" class="bg-white p-8 rounded-xl shadow-md space-y-6">
+        <input type="hidden" asp-for="Id" />
+
+        <div>
+            <label asp-for="Nombre" class="block text-sm font-medium">Nombre</label>
+            <input asp-for="Nombre" class="mt-1 w-full border-gray-300 rounded-lg shadow-sm" />
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <label asp-for="Tipo" class="block text-sm font-medium">Tipo</label>
+                <input asp-for="Tipo" class="mt-1 w-full border-gray-300 rounded-lg shadow-sm" />
+            </div>
+
+            <div>
+                <label asp-for="Genero" class="block text-sm font-medium">Género</label>
+                <input asp-for="Genero" class="mt-1 w-full border-gray-300 rounded-lg shadow-sm" />
+            </div>
+        </div>
+
+        <div>
+            <label asp-for="PaisOrigen" class="block text-sm font-medium">País</label>
+            <input asp-for="PaisOrigen" class="mt-1 w-full border-gray-300 rounded-lg shadow-sm" />
+        </div>
+
+        <div>
+            <label asp-for="Descripcion" class="block text-sm font-medium">Descripción</label>
+            <textarea asp-for="Descripcion" rows="4" class="mt-1 w-full border-gray-300 rounded-lg shadow-sm"></textarea>
+        </div>
+
+        <div class="flex items-center gap-2">
+            <input asp-for="Activo" type="checkbox" class="h-4 w-4 text-indigo-600" />
+            <label asp-for="Activo" class="text-sm">Activo</label>
+        </div>
+
+        <div class="flex justify-end gap-3">
+            <a asp-action="Index" class="px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200">Cancelar</a>
+            <button type="submit" class="px-4 py-2 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700">Actualizar</button>
+        </div>
+    </form>
+</div>

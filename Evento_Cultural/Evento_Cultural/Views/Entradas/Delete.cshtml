@@ -1,0 +1,17 @@
+﻿@model Evento_Cultural.Models.Entrada
+@{
+    ViewData["Title"] = "Eliminar Entrada";
+}
+<div class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow">
+    <h1 class="text-2xl font-bold text-red-600 mb-4">¿Eliminar Entrada?</h1>
+    <p class="mb-6 text-gray-700">
+        ¿Estás seguro de eliminar la entrada <strong>@Model.TipoEntrada</strong> del evento <strong>@Model.Evento?.Titulo</strong>?
+        Esta acción no se puede deshacer.
+    </p>
+    <form asp-action="DeleteConfirmed" method="post" class="mt-6 flex gap-4">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">Eliminar</button>
+        <a asp-action="Index" class="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg">Cancelar</a>
+    </form>
+</div>
